@@ -1,0 +1,19 @@
+{
+	"Company": {
+		"name": "string",
+		"status": "boolean",
+		"created": "date",
+		"integrated": "date",
+		"manager": "string",
+		"licenses": "int",
+		"seats": "int",
+		"users": "User[]",
+		"partners": "int"
+	},
+	"User": {
+		"name": "string",
+		"company": "Company",
+		"email": "string",
+		"phone number": "string"
+	}
+}
